@@ -35,7 +35,7 @@ def update_seats(seats, row_nr, seat):
     seats[row_nr - 1][index_of_seat(seat)] = BOOKED_CHARACTER
 
 def get_more_seats():
-    return input('More seats (y/n)? ')
+    return input(f'More seats ({MORE_SEATS}/{NO_MORE_SEATS})? ')
 
 def are_seats_available(seats):
     for row in seats:
