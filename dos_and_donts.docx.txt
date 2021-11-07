@@ -1,0 +1,13 @@
+﻿Ekki while True
+Clear variable names
+Ef þið eruð í vafa gerið fleiri föll en færri
+Endurtekt
+Alltaf að hafa fasta
+Private variables (encapsulation/hjúpun er keyword)
+Gera námundum bara við útprentun
+Global breytur
+Aðalforrit ólæsilegt
+Einhver import virkni
+SRP brotið t.d. að opna skrá og vinna gögn eða opna skrá og prenta út
+Fallið sem villuleitar á ekki líka að prenta út.
+Óþarfa flækja
