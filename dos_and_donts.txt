@@ -11,3 +11,4 @@ Einhver import virkni
 SRP brotið t.d. að opna skrá og vinna gögn eða opna skrá og prenta út
 Fallið sem villuleitar á ekki líka að prenta út.
 Óþarfa flækja
+Alltaf vera explicit með exceptions
