@@ -1,4 +1,4 @@
-from typing import TextIO
+from typing import List, TextIO
 
 ROW_NR_COUNT = 5
 MIN = 1
@@ -27,16 +27,15 @@ def read_lotto_rows(lotto_file: TextIO):
     return rows
 
 def get_winning_numbers():
-    return input('Enter winning numbers: ')
+    return input('Enter winning numbers: ').split()
 
 def is_number_in_range(nr: int):
     return MIN <= nr <= MAX
 
-def get_validated_winning_numbers(winning_numbers: str):
-    winning_numbers_string_list = winning_numbers.split()
-    if (len(winning_numbers_string_list) == ROW_NR_COUNT):
+def get_validated_winning_numbers(winning_numbers: List[str]):
+    if (len(winning_numbers) == ROW_NR_COUNT):
         lotto_row = []
-        for nr_string in winning_numbers_string_list:
+        for nr_string in winning_numbers:
             try:
                 nr = int(nr_string)
                 if is_number_in_range(nr):
